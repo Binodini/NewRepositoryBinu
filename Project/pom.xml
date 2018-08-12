@@ -21,7 +21,12 @@
    			<version>3.11.0</version>
 		</dependency>
 		
-		
+		<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>6.8</version>
+  <scope>test</scope>
+</dependency>
 		<dependency>
 <groupId>org.apache.poi</groupId>
 <artifactId>poi-ooxml</artifactId>
@@ -90,7 +95,7 @@
         <version>2.22.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>testngcreateleadDay6.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
